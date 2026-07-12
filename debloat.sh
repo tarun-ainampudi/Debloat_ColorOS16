@@ -204,8 +204,9 @@ uninstall com.aiunit.aon
 echo "[AI Service Engine]"
 uninstall com.oplus.aiunit
 
-echo "[Smart Suggestion Services]"
-uninstall com.oplus.pantanal.ums
+# Dynamic Island
+# echo "[Smart Suggestion Services]"
+# uninstall com.oplus.pantanal.ums
 
 echo "[AI VoiceScribe]"
 uninstall com.coloros.accessibilityassistant
