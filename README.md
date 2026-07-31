@@ -31,6 +31,7 @@ Simple shell scripts to remove or restore pre-installed ColorOS 16 applications,
 ```bash
 git clone https://github.com/tarun-ainampudi/Debloat_ColorOS16.git
 cd Debloat_ColorOS16
+
 ```
 
 ---
@@ -44,6 +45,7 @@ cd Debloat_ColorOS16
 ```bash
 adb push debloat.sh /data/local/tmp/
 adb shell sh /data/local/tmp/debloat.sh
+
 ```
 
 ### With Root
@@ -51,6 +53,7 @@ adb shell sh /data/local/tmp/debloat.sh
 ```bash
 adb push debloat.sh /data/local/tmp/
 adb shell su -c "sh /data/local/tmp/debloat.sh"
+
 ```
 
 ## Rebloat
@@ -60,6 +63,7 @@ adb shell su -c "sh /data/local/tmp/debloat.sh"
 ```bash
 adb push rebloat.sh /data/local/tmp/
 adb shell sh /data/local/tmp/rebloat.sh
+
 ```
 
 ### With Root
@@ -67,6 +71,7 @@ adb shell sh /data/local/tmp/rebloat.sh
 ```bash
 adb push rebloat.sh /data/local/tmp/
 adb shell su -c "sh /data/local/tmp/rebloat.sh"
+
 ```
 
 ---
@@ -79,12 +84,14 @@ adb shell su -c "sh /data/local/tmp/rebloat.sh"
 
 ```bash
 sh debloat.sh
+
 ```
 
 ### With Root
 
 ```bash
 su -c "sh debloat.sh"
+
 ```
 
 ## Rebloat
@@ -93,12 +100,14 @@ su -c "sh debloat.sh"
 
 ```bash
 sh rebloat.sh
+
 ```
 
 ### With Root
 
 ```bash
 su -c "sh rebloat.sh"
+
 ```
 
 ---
